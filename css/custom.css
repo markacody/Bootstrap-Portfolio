@@ -1,0 +1,116 @@
+body {
+	background-color: #eee; 
+}
+h1 {
+	color: #4e2a84;
+}
+h5 {
+	font-weight: bold;
+}
+.this-content {
+	padding-top: 60px;
+}
+.jumbotron {
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+th {
+	background-color: #836daa; 
+	color: white;	
+}
+.this-article {
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	border-radius: 4px;
+	padding: 1em;
+}
+.this-brand-title {
+	padding-left: 1em;
+	color: black;
+}
+.this-brand-title > h1 {
+	color: purple;
+}
+.this-brand-logo {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.jumbotron h1 {
+	font-weight: bold;
+	padding-top: 2em;
+}
+.this-subtitle {
+	color: gray;
+}
+.this-navmenu {
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	background-color: lightgray;
+	width: 100%;
+	border-radius: 4px;
+}
+.this-caption {
+	text-align: center;
+	font-size: 1.5em;
+	color: grey;
+	padding: .5em;
+}
+.pop {
+		color: purple;
+}
+.education {
+		list-style-type: square;
+		line-height: 1.2;
+		font-size: .95em;
+		margin-left: .75em;
+		color: #222;
+}
+.siu {
+		font-size: .8em;
+		color: darkred;
+}
+.nu {
+		font-size: .8em;
+		color: purple;
+}
+.this-image {
+	border: 2px solid #ddd;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+	.float {
+		float: left;
+		margin: 1em 1em 0 1em;
+	}
+	.group:after {
+	  content: "";
+	  display: table;
+	  margin: 0 auto;
+	  clear: both;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 3em;
+	}
+
+}
+@media only screen and (max-width: 768px) {
+	.float {
+		float: left;
+		margin: 1em 1em 0 1em;
+	}
+	.group:after {
+	  content: "";
+	  display: table;
+	  margin: 0 auto;
+	  clear: both;
+	}
+}

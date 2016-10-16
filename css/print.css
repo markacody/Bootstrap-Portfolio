@@ -1,0 +1,18 @@
+@media print {
+	header, nav, footer, audio {
+		display: none;
+	}
+	#this-navdiv {
+		display: none;
+	}
+	main {
+		width: auto;
+		min-width:  7.5in;
+	}
+	.multimedia {
+		display: none;
+	}
+	.player {
+		display: none;
+	} 
+}
